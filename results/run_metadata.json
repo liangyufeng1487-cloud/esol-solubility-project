@@ -1,0 +1,48 @@
+{
+  "raw_rows": 1128,
+  "invalid_rows": 0,
+  "unique_molecules": 1117,
+  "duplicate_rows_merged": 11,
+  "seed": 42,
+  "source_sha256": "8c06a76f0c6487d29ab0f903e6a7a7139f189ab3c1178f159c8be8964602f189",
+  "versions": {
+    "python": "3.13.18",
+    "rdkit": "2026.09.2",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "splits": {
+    "scaffold": {
+      "train": 781,
+      "validation": 167,
+      "test": 169,
+      "best_params": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 0.7,
+        "random_state": 42,
+        "n_jobs": 2
+      },
+      "best_validation_RMSE": 0.8101493905652548,
+      "scaffold_overlap_train_test": 0
+    },
+    "random": {
+      "train": 781,
+      "validation": 168,
+      "test": 168,
+      "best_params": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 0.7,
+        "random_state": 42,
+        "n_jobs": 2
+      },
+      "best_validation_RMSE": 0.6668522062799443,
+      "scaffold_overlap_train_test": 30
+    }
+  },
+  "runtime_seconds": 27.84
+}
